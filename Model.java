@@ -2,10 +2,10 @@ package FinalTestForSecondBlockJava;
 
 import java.util.HashMap;
 
-import Intermethod.FrequencyCounter;
-import Intermethod.LongestWordFinder;
-import Intermethod.Reader;
-import Intermethod.WordsCounter;
+import FinalTestForSecondBlockJava.Intermethod.FrequencyCounter;
+import FinalTestForSecondBlockJava.Intermethod.LongestWordFinder;
+import FinalTestForSecondBlockJava.Intermethod.Reader;
+import FinalTestForSecondBlockJava.Intermethod.WordsCounter;
 
 public class Model implements Reader, WordsCounter, LongestWordFinder, FrequencyCounter {
     String[] words;
